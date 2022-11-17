@@ -5,29 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Chemeris_PR5._1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <MediaElement x:Name="myGif" MediaEnded="myGif_MediaEnded" UnloadedBehavior="Manual" Source="file://D:\vs\Wpf_Chemeris_PR5.1\papich-smash.gif" LoadedBehavior="Play" Stretch="None" Margin="-22,-2,280,102"/>
-        <MediaElement x:Name="myGif1" MediaEnded="myGif1_MediaEnded" UnloadedBehavior="Manual" Source="file://D:\vs\Wpf_Chemeris_PR5.1\124431243.gif" LoadedBehavior="Play" Stretch="None" Margin="475,30,-23,252"/>
+        Title="MainWindow" Height="345" Width="1006">
+    <Grid Margin="0,0,0,-6">
+
+
+        <MediaElement x:Name="myGif" MediaEnded="myGif_MediaEnded" UnloadedBehavior="Manual" Source="file://D:\vs\Wpf_Chemeris_PR5.1\papich-smash.gif" LoadedBehavior="Play" Stretch="None" Margin="-99,72,408,-45"/>
+        <MediaElement x:Name="myGif1" MediaEnded="myGif1_MediaEnded" UnloadedBehavior="Manual" Source="file://D:\vs\Wpf_Chemeris_PR5.1\124431243.gif" LoadedBehavior="Play" Stretch="None" Margin="493,30,47,44"/>
         <Menu Height="25" VerticalAlignment="Top">
             <MenuItem Header="File">
                 <MenuItem Header="Хз" >
                     <MenuItem Header="Котик 1">
                         <MenuItem.Icon>
-                        <Image  Source="/728x486_1_30b570c2f6c0da65bb56095068e05768@940x627_0xc0a839a4_18087198581488362059.jpg" Stretch="Fill" Margin="211,86,211,85"/>
-                            </MenuItem.Icon>
-                            
+                            <Image  Source="/728x486_1_30b570c2f6c0da65bb56095068e05768@940x627_0xc0a839a4_18087198581488362059.jpg" Stretch="Fill" Margin="211,86,211,85"/>
+                        </MenuItem.Icon>
+
                     </MenuItem>
                     <MenuItem Header="Котик 2">
                         <MenuItem.Icon>
-                        <Image Margin="190,30,190,10" Source="/1619619348_59-oir_mobi-p-samie-milie-kotiki-zhivotnie-krasivo-foto-65.jpg" Stretch="Fill"/>
-                            </MenuItem.Icon>
-                            
+                            <Image Margin="190,30,190,10" Source="/1619619348_59-oir_mobi-p-samie-milie-kotiki-zhivotnie-krasivo-foto-65.jpg" Stretch="Fill"/>
+                        </MenuItem.Icon>
+
                     </MenuItem>
                     <MenuItem Header="Котик 3">
                         <MenuItem.Icon>
-                        <Image  Source="/728x486_1_30b570c2f6c0da65bb56095068e05768@940x627_0xc0a839a4_18087198581488362059.jpg" Stretch="Fill" Margin="211,86,211,85"/>
-                            </MenuItem.Icon>
+                            <Image  Source="/728x486_1_30b570c2f6c0da65bb56095068e05768@940x627_0xc0a839a4_18087198581488362059.jpg" Stretch="Fill" Margin="211,86,211,85"/>
+                        </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
             </MenuItem>
