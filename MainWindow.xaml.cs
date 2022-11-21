@@ -26,16 +26,19 @@ namespace Wpf_Chemeris_PR5._1
         }
         private void myGif_MediaEnded(object sender, RoutedEventArgs e)
         {
-
-            myGif.Position = new TimeSpan(0, 0, 1);
-            myGif.Play();
-
         }
         private void myGif1_MediaEnded(object sender, RoutedEventArgs e)
         {
 
-            myGif1.Position = new TimeSpan(0, 0, 1);
-            myGif1.Play();
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            myImage.Source = new BitmapImage(new Uri("ImageSource/1.jpg", UriKind.Relative));
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
 
         }
     }
